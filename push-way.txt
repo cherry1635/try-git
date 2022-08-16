@@ -1,0 +1,17 @@
+
+
+# show {origin}
+git remote -v
+
+# make sure {address}
+username = Harry-Jayce
+address = https://{token}@github.com/{username}/{repo-name}/
+
+# set {origin}
+git remote set-url origin {address}
+
+# set {origin} if origin is Null
+git remote add origin {address}
+
+# push to {origin} from {main}
+git push -u origin main
