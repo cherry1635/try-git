@@ -1,0 +1,72 @@
+
+Introduction of Git Branch
+
+As we know, Git use "commit" to do a linear version control.
+It is good for go back to historical version.
+Often we have at least one main branch.
+It is not enough for one branch, because we wanna different branches exist at the same time.
+
+For example, I wanna provide 3 branches to users.
+These are long-term branches for different type of users.
+1. dev branch for who wanna try new functions and can take risk, code may not be tested.
+2. beta branch for who wanna try new functions and cannot accept much risk, code should be tested.
+3. main branch for who doesn't wanna take any risk, code was tested, functions were considered.
+
+Another example, developers wanna use a little branch to fix a tiny problem.
+These are short-term branches for solve a small problem.
+1. bugfix branch for fix bugs and quick merge or rebase.
+2. feature branch for develop a new function and quick merge to dev branch.
+3. adjust branch for redesign a small code and quick merge to long-term branch.
+
+If 2 branches are not through a same line, those commits cannot be accessed by both branches.
+
+The reason why we need to make a new branch on current branch is because,
+if we decide to develop something new that most likely will involve some uncertain factors potentially which will damage the original branch.
+
+So the better practice is we develop something in "dev branch" and wait it become mature, then we can just merge something of "dev branch" into "main branch".
+After that, the dev branch can move forward to try the some experimental development.
+
+In short, we create a branch and develop something on, then merge it back to main branch.
+
+# some cmds relevant to branch
+# show all branch
+git branch
+
+# create a branch
+git branch <name>
+
+# switch to a branch
+git switch <name>
+
+# delete a branch
+git branch --delete <name>
+
+# check commit log
+git log --branches --graph --oneline
+
+# merge bugfix to main
+git switch main
+git merge bugfix
+# OR
+git merge bugfix main
+# Merge will do an operation that generate a new node and connect it to both branches.
+
+# For 2 divided branches, we wanna move 'bugfix' below the 'main'.
+# Rebase will copy all nodes which is not part of 'main' to the below of 'main'.
+git switch bugfix
+git rebase main
+# OR
+git rebase main bugfix
+
+# see HEAD pointer position
+git rebase main bugfix
+
+# let HEAD back to the history commit
+git log --online
+git checkout <commit_id>
+
+# let HEAD seprate from 'main' and go to newest commit
+git checkout <commit_id>
+
+
+

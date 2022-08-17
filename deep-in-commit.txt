@@ -1,0 +1,20 @@
+Deep in commit
+
+It is not a big deal to understand "commit" which is an operation such as take photo, record something.
+
+Git will not track all the files under the repo, rather you should use "add" operation to let Git know that what files is you wanna Git to track.
+
+When you let Git tracking those files, and then those can be committed or can be back to the not tracked state of the start.
+
+Why Git is designed to first add second commit?
+
+Because not everything in the repo that you wanna record.
+To make a tracked area to store part of files will save many computer resources.
+
+Something in the tracked area will show that "will be committed".
+
+A usual workflow is we add many files in the tracked area and run a concetrated commit operation later.
+
+At last, you should check if the commit have a real effect, just use log to see what happened.
+
+

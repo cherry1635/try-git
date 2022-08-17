@@ -6,5 +6,5 @@ Git is a famous tool for version control.
 It works on many "commit node", when you commit something which means having recorded the state of files at the time.
 
 People use Git have many reansons, the most one is they want to their project have different versions.
-Git usually deals with remote repo and local repo.
-You can manage your code and share you code. Enjoy!
+Git usually deals requrests between remote repo and local repo.
+This let you have power to manage your code and share you code. Enjoy!
