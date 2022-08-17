@@ -42,7 +42,7 @@ git switch <name>
 git branch --delete <name>
 
 # check commit log
-git log --branches --graph --oneline
+git log --branches --graph --oneline --source
 
 # merge bugfix to main
 git switch main
