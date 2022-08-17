@@ -1,2 +1,6 @@
 beginning.txt
-deep-in-commit.txt
+git-base/deep-in-commit.txt
+git-branch/ 
+# OR
+git-remote/
+

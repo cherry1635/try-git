@@ -1,0 +1,15 @@
+
+commit log: C1, C2, C3
+
+list1 = C1, C2
+dev_branch = list1 and (C3)
+main_branch = list1 and (C4)
+
+
+
+
+
+
+
+
+
