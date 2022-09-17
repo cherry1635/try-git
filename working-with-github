@@ -1,0 +1,16 @@
+When you decide to upload your commits.
+
+Problems is here.
+Very long time ago, GitHub Offical use email-address and password
+to verify whether the access user is the true user who owns the repo.
+
+But it is very fragile, because the password is easy to guess.
+Or it is dangerous, because the password can be leaked to others.
+Like, if you copy paste the password, or just do something wrong.
+
+So use SSH protocol to transfer files is a relative safe operation.
+
+SSH protocol with SSH pub-key verification is becoming a very popluar way 
+to transfer files through the network.
+
+So 
