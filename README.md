@@ -1,28 +1,24 @@
 
-Hello, This is Harry.
-and very glad to introduce Git for you.
+# Try Git
+Hello, This is Cherrise, and very glad to introduce Git for you.
 
-and Git is not too complicated, it is a tool based on CMD-Line
-and have no GUI may be a problem for some guys.
-but it is not too hard to create a GUI.
-I hope GUI Version Control Software will birth soon.
+Git is complicated at first, please keep patience in reading turotial.
 
-roadmap.txt will guid you where is the favourite article located 
-you wanna read.
+A official name of Git is Version Control System. But I prefer to describe Git as "project file recorded tool".
+In source code level, git is implemented by file system support.
 
-I know many people think Git is so hard to use.
-I try my best.
+I don't hope you to ask why it should define  such a function, it was just a software design, it' cool or bad, just accept at the first glance. It will be clear to the final time. Don't be hurry.
 
+If you are new, please follow the order of the chapters, because you should know some basic knowledges before you go to deeper usage.
+```
+chapter1
+chapter2
+...
+```
 
+<h4>About Copyright:</h4>
+All right reserved for github user -- named 
+cherry1635
+Cherrise Taylor.
 
-Beginning:
-
-Git beginning
-
-Git is a famous tool for version control.
-
-It works on many "commit node", when you commit something which means having recorded the state of files at the time.
-
-People use Git have many reansons, the most one is they want to their project have different versions.
-Git usually deals requrests between remote repo and local repo.
-This let you have power to manage your code and share you code. Enjoy!
+!! Anyone can not Reprint or quote the sentences or other resources that appear in the article.
