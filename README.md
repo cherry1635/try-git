@@ -1,17 +1,16 @@
 
 # Try Git
-Hello, This is Cherrise, and very glad to introduce Git for you.
+Hello, This is Cherrise, and it's nice to introduce Git for you.
 
-Git is complicated at first, please keep patience in reading tutorial.
+Git is complicated at first, so keep patience with this tutorial.
 
-A official name of Git is Version Control System. But I prefer to describe Git as "project file recorded tool".
-In source code level, git is implemented by file system support.
+An official name of Git is Version Control System, but I prefer describe Git as "project file recorded tool".
+In source code level, Git was implemented by file system support.
 
-I don't hope you to ask why it should define  such a function, it was just a software design, it' cool or bad, just accept at the first glance. It will be clear to the final time. Don't be hurry.
 
-If you are new, please follow the order of the chapters, because you should know some basic knowledges before you go to deeper usage.
+If you are new, please follow the order of the chapters, because you should know some basic knowledges before you go to deeper functions.
 ```
-chapter1
+git-base
 chapter2
 ...
 ```
@@ -21,4 +20,15 @@ All right reserved for github user -- named
 cherry1635
 Cherrise Taylor.
 
-!! Anyone can not Reprint or quote the sentences or other resources that appear in the article.
+Attention!! **Anyone can not reprint or quote the sentences or other resources that appear in the article.**
+
+<h3>Why you should use git?</h3>
+
+I say git is good at in recording the file changes, to compare differences.
+If you edited a file, every seconds there is a file updates. And you can't go back, because you can't turn back time.
+I would like to say git is a camera which can take photo, and its service object is a file, the most useful for git is to take photo on files. So that was the basic principle that git can record the file history.
+
+Git functions: give you more flexible space to make you writing choices.
+
+
+

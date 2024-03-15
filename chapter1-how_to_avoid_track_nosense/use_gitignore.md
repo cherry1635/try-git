@@ -13,3 +13,7 @@ https://github.com/github/gitignore
 in above picture, `.sln` file shouldn't be tracked by Git .
 
 we could know that, we only want to show the source code and the docs, others should be hidden.
+
+
+
+you don't want to trace something.
