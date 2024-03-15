@@ -2,7 +2,7 @@
 # Try Git
 Hello, This is Cherrise, and very glad to introduce Git for you.
 
-Git is complicated at first, please keep patience in reading turotial.
+Git is complicated at first, please keep patience in reading tutorial.
 
 A official name of Git is Version Control System. But I prefer to describe Git as "project file recorded tool".
 In source code level, git is implemented by file system support.

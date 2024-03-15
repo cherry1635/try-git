@@ -1,0 +1,12 @@
+Any large software as Git are come with complicated.
+
+type // git remote -v // will show.
+fetch_name	fetch_address
+push_name	push_address
+
+// git pull // copy changes from a remote repo to Local.
+
+# Should I use git fetch or git pull?
+If your workspace has no uncommitted files, and you want to copy the latest changes from a remote repository directly into your working directory, then issue the git pull command.
+
+If you want to pull down the latest changes from a remote repository without overwriting anything in your working directory, then use git fetch, and then do a git merge when the time is right.
