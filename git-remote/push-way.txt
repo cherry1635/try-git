@@ -15,3 +15,7 @@ git remote add origin {address}
 
 # push to {origin} from {main}
 git push -u origin main
+
+
+# rename origin
+git remote rename origin <new-name>
